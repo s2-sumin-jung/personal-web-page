@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import './Hero.css'
 
 function Hero() {
+  const { t, i18n } = useTranslation()
   const [activeSection, setActiveSection] = useState('latest')
 
   useEffect(() => {
@@ -37,27 +39,45 @@ function Hero() {
   return (
     <div className="hero">
       <div className="hero-content">
+        {/* Language Toggle */}
+        <div className="lang-toggle">
+          <span className="lang-icon">🌐</span>
+          <button
+            className={`lang-btn ${i18n.language === 'en' ? 'active' : ''}`}
+            onClick={() => { i18n.changeLanguage('en'); localStorage.setItem('language', 'en'); }}
+          >
+            EN
+          </button>
+          <span className="lang-divider">/</span>
+          <button
+            className={`lang-btn ${i18n.language === 'ko' ? 'active' : ''}`}
+            onClick={() => { i18n.changeLanguage('ko'); localStorage.setItem('language', 'ko'); }}
+          >
+            한국어
+          </button>
+        </div>
+
         {/* Profile Image */}
         <div className="profile-image-container">
           <img
             src="/profile.jpg"
-            alt="정수민 프로필"
+            alt={t('hero.name')}
             className="profile-image"
           />
         </div>
 
         {/* Name & Title */}
         <div className="hero-info">
-          <h1 className="name-ko">정수민</h1>
-          <h2 className="name-en">Sumin Jung</h2>
+          <h1 className="name-ko">{t('hero.name')}</h1>
+          <h2 className="name-en">{t('hero.nameEn')}</h2>
           <p className="title">
-            심리학 연구자 · 프로덕트 오너 · 코칭심리사
+            {t('hero.title')}
           </p>
         </div>
 
         {/* Skills */}
         <div className="skills-section">
-          <h3 className="section-title">Skills</h3>
+          <h3 className="section-title">{t('hero.skills')}</h3>
           <div className="skills-container">
             {skills.join(', ')}
           </div>
@@ -66,7 +86,7 @@ function Hero() {
         {/* Social Links */}
         <div className="social-links">
           <a
-            href="https://www.linkedin.com/in/sumin-jung"
+            href="https://www.linkedin.com/in/hisumin"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
@@ -77,7 +97,7 @@ function Hero() {
             </svg>
           </a>
           <a
-            href="https://brunch.co.kr/@suminjung"
+            href="https://brunch.co.kr/@sum-ing"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
@@ -88,7 +108,7 @@ function Hero() {
             </svg>
           </a>
           <a
-            href="mailto:sumin.jung@example.com"
+            href="mailto:s2.sumin.jung@gmail.com"
             className="social-link"
             aria-label="Email"
           >
@@ -104,25 +124,25 @@ function Hero() {
             className={`nav-item ${activeSection === 'latest' ? 'active' : ''}`}
             onClick={() => scrollToSection('latest')}
           >
-            최근 소식
+            {t('hero.nav.latest')}
           </button>
           <button
             className={`nav-item ${activeSection === 'research' ? 'active' : ''}`}
             onClick={() => scrollToSection('research')}
           >
-            연구
+            {t('hero.nav.research')}
           </button>
           <button
             className={`nav-item ${activeSection === 'work' ? 'active' : ''}`}
             onClick={() => scrollToSection('work')}
           >
-            업무
+            {t('hero.nav.work')}
           </button>
           <button
             className={`nav-item ${activeSection === 'projects' ? 'active' : ''}`}
             onClick={() => scrollToSection('projects')}
           >
-            프로젝트
+            {t('hero.nav.projects')}
           </button>
         </nav>
       </div>

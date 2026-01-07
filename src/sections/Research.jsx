@@ -1,139 +1,86 @@
+import { useTranslation } from 'react-i18next'
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component'
+import 'react-vertical-timeline-component/style.min.css'
+import { FaGraduationCap, FaFlask } from 'react-icons/fa'
 import './Research.css'
 
 function Research() {
-  const education = [
-    {
-      period: '2025.9 - 현재',
-      institution: '서울대학교',
-      degree: '사회심리학 박사과정',
-      description: '지도교수: 최인철 박사 · 연구 주제: 행복 · 웰빙 · 운동 · 동기 · 정서조절'
-    },
-    {
-      period: '2021.9 - 2023.8',
-      institution: '서울대학교',
-      degree: '사회심리학 석사'
-    },
-    {
-      period: '2016.3 - 2020.8',
-      institution: '서울대학교',
-      degree: '심리학 학사 (최우등 졸업)'
-    }
-  ]
+  const { t } = useTranslation()
 
-  const experience = [
-    {
-      period: '2025.9 - 현재',
-      organization: '서울대 행복연구센터 (최인철 박사)',
-      role: '대학원 연구원',
-      description: ''
-    },
-    {
-      period: '2024.3 - 2025.2',
-      organization: '스탠포드 심리생리학 연구실 (제임스 그로스 박사)',
-      role: '연구원',
-      description: '멘토: Sylvia Kreibig 박사, 연구 논문 2편 공저, 메타분석 문헌 리뷰 및 코딩'
-    },
-    {
-      period: '2021.9 - 2023.8',
-      organization: '서울대 행복연구센터 (최인철 박사)',
-      role: '대학원 연구원',
-      description: '연구 프로젝트 3편 공저, 종단 데이터 통계 분석'
-    },
-    {
-      period: '2019.1 - 2020.12',
-      organization: '서울대 사회심리학연구실 (최인철 박사)',
-      role: '학부 연구원',
-      description: ''
-    },
-    {
-      period: '2019.1 - 2019.12',
-      organization: '서울대 계산임상과학연구실 (안우영 박사)',
-      role: '학부 연구원',
-      description: ''
-    }
-  ]
-
-  const publications = {
-    published: [
-      { text: '[3] Jung, S., Ku, X., & Choi, I. (2025). Why Do Happy People Exercise More? The Mediating Roles of Motivation for Exercise. Journal of Happiness Studies, 26(4), 1-26.', doi: 'https://doi.org/10.1007/s10902-025-00885-5' },
-      { text: '[2] Kreibig, S. D., Jung, S., Samson, A. C., & Gross, J. J. (2025). Experiential, Expressive, and Physiological Effects of Extrinsic and Intrinsic Emotion Self-Regulation Instruction. Psychophysiology.', doi: 'https://doi.org/10.1111/psyp.70153' },
-      { text: '[1] *Jung, S., *Ku, X., & Choi, I. (2023). What Activities Do Happy People Engage In? Korea Happiness Map 2023, 145-153.', doi: null }
-    ],
-    submitted: [
-      '[2] *Jung, S., *Ku, X., Jun, Y., & Choi, I. Buying Time, To Do or Not To Do? The Effect of Time Saving and Task Avoidance Purchases on Happiness.',
-      '[1] Jung, Y., Jung, S., & Hahn, S. The Effect of Emotional Clarity on Happiness: Focusing on the Mediating Effect of Deliberate Rumination.'
-    ]
-  }
-
-  const presentations = [
-    '[4] Jung, S., Jyung, M., & Choi, I. (2023.11). Valuing Relationship Buffers the Negative Effect of Living Alone on Happiness. KSPPA, Poster Presentation.',
-    '[3] Jung, S., Ku, X., & Choi, I. (2023.11). Why Do Happy People Exercise More? KSPPA, Oral Presentation.',
-    '[2] Jung, S., Ku, X., Jun, Y., & Choi, I. (2023.3). Buying Time, To Do or Not To Do? ICPS Belgium, Poster Presentation.',
-    '[1] Jung, S. et al. (2020.8). Productivity Obsession Scale Development and Validation. KPA, Poster Presentation.'
-  ]
-
-  const teaching = [
-    { period: '2025.11-12', content: '서울대 학부생 우수논문 프로그램 멘토' },
-    { period: '2022 가을, 2021 가을', content: '서울대 "사회심리학 및 실험" 조교' },
-    { period: '2022 봄', content: '서울대 "굿라이프 심리학" 조교' },
-    { period: '2022.3-12', content: '서울대 학부생 독립연구 프로그램 멘토' }
-  ]
-
-  const awards = [
-    { year: '2023', content: '미래 심리학자상 - 한국사회및성격심리학회' },
-    { year: '2022', content: '서울대 대학원 성적우수 장학금' },
-    { year: '2019', content: '서울대 학부생 독립연구 공모전 우수상 & 연구비 300만원' },
-    { year: '2019', content: '서울대 학부 전액 성적우수 장학금' }
-  ]
+  const education = t('research.education.items', { returnObjects: true })
+  const experience = t('research.experience.items', { returnObjects: true })
+  const publishedItems = t('research.publications.publishedItems', { returnObjects: true })
+  const submittedItems = t('research.publications.submittedItems', { returnObjects: true })
+  const presentations = t('research.presentations.items', { returnObjects: true })
+  const teaching = t('research.teaching.items', { returnObjects: true })
+  const awards = t('research.awards.items', { returnObjects: true })
 
   return (
     <section id="research" className="section research-section">
       <div className="section-container">
-        <h2 className="section-heading gradient-text">연구</h2>
+        <h2 className="section-heading gradient-text">{t('research.title')}</h2>
 
         {/* Education */}
         <div className="subsection">
-          <h3 className="subsection-title">학력</h3>
-          <div className="timeline">
+          <h3 className="subsection-title">{t('research.education.title')}</h3>
+          <VerticalTimeline lineColor="var(--border-color)" layout="1-column-left">
             {education.map((item, index) => (
-              <div key={index} className="timeline-item" style={{ animationDelay: `${index * 0.1}s` }}>
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <div className="timeline-period">{item.period}</div>
-                  <div className="timeline-institution">{item.institution}</div>
-                  <div className="timeline-degree">{item.degree}</div>
-                  {item.description && <div className="timeline-description">{item.description}</div>}
-                </div>
-              </div>
+              <VerticalTimelineElement
+                key={index}
+                className="vertical-timeline-element--education"
+                date={item.period}
+                iconStyle={{ background: 'var(--primary)', color: '#fff', boxShadow: '0 0 0 4px var(--primary-light)' }}
+                icon={<FaGraduationCap />}
+                contentStyle={{
+                  background: 'var(--bg-primary)',
+                  boxShadow: 'var(--shadow-primary)',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: 'var(--radius-md)'
+                }}
+                contentArrowStyle={{ borderRight: '7px solid var(--border-color)' }}
+              >
+                <h4 className="vertical-timeline-element-title">{item.institution}</h4>
+                <h5 className="vertical-timeline-element-subtitle">{item.degree}</h5>
+                {item.description && <p className="timeline-description">{item.description}</p>}
+              </VerticalTimelineElement>
             ))}
-          </div>
+          </VerticalTimeline>
         </div>
 
         {/* Experience */}
         <div className="subsection">
-          <h3 className="subsection-title">연구 경력</h3>
-          <div className="timeline">
+          <h3 className="subsection-title">{t('research.experience.title')}</h3>
+          <VerticalTimeline lineColor="var(--border-color)" layout="1-column-left">
             {experience.map((item, index) => (
-              <div key={index} className="timeline-item" style={{ animationDelay: `${index * 0.1}s` }}>
-                <div className="timeline-marker"></div>
-                <div className="timeline-content">
-                  <div className="timeline-period">{item.period}</div>
-                  <div className="timeline-organization">{item.organization}</div>
-                  <div className="timeline-role">{item.role}</div>
-                  {item.description && <div className="timeline-description">{item.description}</div>}
-                </div>
-              </div>
+              <VerticalTimelineElement
+                key={index}
+                className="vertical-timeline-element--work"
+                date={item.period}
+                iconStyle={{ background: 'var(--secondary)', color: '#fff', boxShadow: '0 0 0 4px rgba(139, 92, 246, 0.3)' }}
+                icon={<FaFlask />}
+                contentStyle={{
+                  background: 'var(--bg-primary)',
+                  boxShadow: 'var(--shadow-primary)',
+                  border: '1px solid var(--border-color)',
+                  borderRadius: 'var(--radius-md)'
+                }}
+                contentArrowStyle={{ borderRight: '7px solid var(--border-color)' }}
+              >
+                <h4 className="vertical-timeline-element-title">{item.organization}</h4>
+                <h5 className="vertical-timeline-element-subtitle">{item.role}</h5>
+                {item.description && <p className="timeline-description">{item.description}</p>}
+              </VerticalTimelineElement>
             ))}
-          </div>
+          </VerticalTimeline>
         </div>
 
         {/* Publications */}
         <div className="subsection">
-          <h3 className="subsection-title">논문</h3>
+          <h3 className="subsection-title">{t('research.publications.title')}</h3>
 
-          <h4 className="publication-category">출판됨</h4>
+          <h4 className="publication-category">{t('research.publications.published')}</h4>
           <div className="publication-list">
-            {publications.published.map((pub, index) => (
+            {publishedItems.map((pub, index) => (
               <div key={index} className="publication-item" style={{ animationDelay: `${index * 0.1}s` }}>
                 {pub.text}
                 {pub.doi && (
@@ -148,9 +95,9 @@ function Research() {
             ))}
           </div>
 
-          <h4 className="publication-category">제출됨</h4>
+          <h4 className="publication-category">{t('research.publications.submitted')}</h4>
           <div className="publication-list">
-            {publications.submitted.map((pub, index) => (
+            {submittedItems.map((pub, index) => (
               <div key={index} className="publication-item" style={{ animationDelay: `${index * 0.1}s` }}>
                 {pub}
               </div>
@@ -160,7 +107,7 @@ function Research() {
 
         {/* Presentations */}
         <div className="subsection">
-          <h3 className="subsection-title">학회 발표</h3>
+          <h3 className="subsection-title">{t('research.presentations.title')}</h3>
           <div className="publication-list">
             {presentations.map((pres, index) => (
               <div key={index} className="publication-item" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -172,7 +119,7 @@ function Research() {
 
         {/* Teaching & Mentoring */}
         <div className="subsection">
-          <h3 className="subsection-title">강의 및 멘토링</h3>
+          <h3 className="subsection-title">{t('research.teaching.title')}</h3>
           <div className="compact-list">
             {teaching.map((item, index) => (
               <div key={index} className="compact-item" style={{ animationDelay: `${index * 0.1}s` }}>
@@ -185,7 +132,7 @@ function Research() {
 
         {/* Awards & Funding */}
         <div className="subsection">
-          <h3 className="subsection-title">수상 및 펀딩</h3>
+          <h3 className="subsection-title">{t('research.awards.title')}</h3>
           <div className="compact-list">
             {awards.map((item, index) => (
               <div key={index} className="compact-item" style={{ animationDelay: `${index * 0.1}s` }}>

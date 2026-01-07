@@ -17,6 +17,53 @@
   gap: var(--spacing-lg);
 }
 
+/* Language Toggle */
+.lang-toggle {
+  position: fixed;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  border-radius: var(--radius-xl);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(8px);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-sm);
+}
+
+.lang-icon {
+  font-size: 0.875rem;
+}
+
+.lang-btn {
+  background: none;
+  border: none;
+  font-size: 0.8125rem;
+  font-weight: 500;
+  color: var(--text-tertiary);
+  cursor: pointer;
+  padding: 2px 4px;
+  border-radius: 4px;
+  transition: all var(--transition-base);
+}
+
+.lang-btn:hover {
+  color: var(--text-secondary);
+}
+
+.lang-btn.active {
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.lang-divider {
+  color: var(--text-quaternary);
+  font-size: 0.75rem;
+}
+
 /* Profile Image */
 .profile-image-container {
   display: flex;
@@ -71,6 +118,7 @@
 
 /* Skills */
 .skills-section {
+  margin-top: -0.5rem;
   animation: fadeIn 0.8s ease-out 0.4s backwards;
 }
 
@@ -135,7 +183,7 @@
 
 .nav-item {
   padding: 0.5rem 0.75rem;
-  font-size: 0.9375rem;
+  font-size: 1.0625rem;
   font-weight: 500;
   color: var(--text-secondary);
   background: transparent;
@@ -205,6 +253,10 @@
 
   .hero-content {
     padding: var(--spacing-lg);
+  }
+
+  .skills-section {
+    text-align: center;
   }
 
   .hero-nav {

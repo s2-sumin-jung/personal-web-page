@@ -1,7 +1,9 @@
 import { useState, useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import './MobileMenu.css'
 
 function MobileMenu() {
+  const { t } = useTranslation()
   const [isOpen, setIsOpen] = useState(false)
   const [activeSection, setActiveSection] = useState('latest')
 
@@ -60,7 +62,7 @@ function MobileMenu() {
 
       <nav className={`mobile-menu ${isOpen ? 'open' : ''}`}>
         <div className="mobile-menu-header">
-          <h3>Navigation</h3>
+          <h3>{t('hero.menu')}</h3>
           <button className="close-button" onClick={toggleMenu} aria-label="Close">
             ×
           </button>
@@ -71,25 +73,25 @@ function MobileMenu() {
             className={`mobile-nav-item ${activeSection === 'latest' ? 'active' : ''}`}
             onClick={() => scrollToSection('latest')}
           >
-            Latest
+            {t('hero.nav.latest')}
           </button>
           <button
             className={`mobile-nav-item ${activeSection === 'research' ? 'active' : ''}`}
             onClick={() => scrollToSection('research')}
           >
-            Research
+            {t('hero.nav.research')}
           </button>
           <button
             className={`mobile-nav-item ${activeSection === 'work' ? 'active' : ''}`}
             onClick={() => scrollToSection('work')}
           >
-            Work
+            {t('hero.nav.work')}
           </button>
           <button
             className={`mobile-nav-item ${activeSection === 'projects' ? 'active' : ''}`}
             onClick={() => scrollToSection('projects')}
           >
-            Projects
+            {t('hero.nav.projects')}
           </button>
         </div>
       </nav>

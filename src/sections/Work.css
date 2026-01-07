@@ -74,6 +74,18 @@
   margin-bottom: 0.5rem;
 }
 
+.work-description .doi-link {
+  font-weight: 600;
+  color: var(--primary);
+  text-decoration: none;
+  transition: all var(--transition-base);
+}
+
+.work-description .doi-link:hover {
+  color: var(--primary-light);
+  text-decoration: underline;
+}
+
 /* Products Section */
 .products-section {
   margin-top: var(--spacing-lg);
@@ -158,6 +170,43 @@
 
 .product-timeline-description {
   font-size: 0.875rem;
+  color: var(--text-secondary);
+}
+
+/* Compact List for Products */
+.products-compact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+}
+
+.products-compact-list .compact-item {
+  display: flex;
+  gap: var(--spacing-md);
+  padding: 12px 0;
+  border-bottom: 1px solid var(--border-color);
+  animation: fadeIn 0.4s ease-out backwards;
+}
+
+.products-compact-list .compact-item:last-child {
+  border-bottom: none;
+}
+
+.products-compact-list .compact-date {
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: var(--primary);
+  min-width: 80px;
+  flex-shrink: 0;
+}
+
+.products-compact-list .compact-content {
+  font-size: 0.95rem;
+  color: var(--text-primary);
+  line-height: 1.6;
+}
+
+.products-compact-list .compact-desc {
   color: var(--text-secondary);
 }
 

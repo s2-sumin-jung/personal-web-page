@@ -1,0 +1,208 @@
+{
+  "hero": {
+    "name": "Sumin Jung",
+    "nameEn": "정수민",
+    "title": "Psychology Researcher · Product Owner · Coaching Psychologist",
+    "skills": "Skills",
+    "menu": "Menu",
+    "nav": {
+      "latest": "Latest",
+      "research": "Research",
+      "work": "Work",
+      "projects": "Projects"
+    }
+  },
+  "latest": {
+    "title": "Latest News",
+    "showMore": "Show More",
+    "collapse": "Collapse",
+    "updates": [
+      {
+        "date": "Jan 7, 2026",
+        "content": "Redesigned my personal website and connected a custom domain!"
+      },
+      {
+        "date": "Jan 6, 2026",
+        "content": "Lifty, a social motivation app I'm working on as Product Owner, has been released on Android and iOS!"
+      },
+      {
+        "date": "Jan 2, 2026",
+        "content": "Successfully tested AI coach feature PoC on our current products. Planning to develop it myself!"
+      }
+    ]
+  },
+  "research": {
+    "title": "Research",
+    "education": {
+      "title": "Education",
+      "items": [
+        {
+          "period": "Sep 2025 - Present",
+          "institution": "Seoul National University",
+          "degree": "Ph.D. in Social Psychology",
+          "description": "Advisor: Dr. Incheol Choi · Research Topics: Happiness · Well-being · Exercise · Motivation · Emotion Regulation"
+        },
+        {
+          "period": "Sep 2021 - Aug 2023",
+          "institution": "Seoul National University",
+          "degree": "M.A. in Social Psychology"
+        },
+        {
+          "period": "Mar 2016 - Aug 2020",
+          "institution": "Seoul National University",
+          "degree": "B.A. in Psychology (Summa Cum Laude)"
+        }
+      ]
+    },
+    "experience": {
+      "title": "Research Experience",
+      "items": [
+        {
+          "period": "Sep 2025 - Present",
+          "organization": "Center for Happiness Studies, Seoul National University (Advisor: Dr. Incheol Choi)",
+          "role": "Graduate Researcher",
+          "description": ""
+        },
+        {
+          "period": "Mar 2024 - Feb 2025",
+          "organization": "Psychophysiology Laboratory, Stanford University (Advisor: Dr. James Gross)",
+          "role": "Researcher",
+          "description": "Mentor: Dr. Sylvia Kreibig, Co-authored 2 research papers, Meta-analysis literature review and coding"
+        },
+        {
+          "period": "Sep 2021 - Aug 2023",
+          "organization": "Center for Happiness Studies, Seoul National University (Advisor: Dr. Incheol Choi)",
+          "role": "Graduate Researcher",
+          "description": "Mentors: Dr. Minhwa Jung, Dr. Jail Koo, Co-authored 3 research projects, Longitudinal data statistical analysis"
+        },
+        {
+          "period": "Jan 2019 - Dec 2020",
+          "organization": "Social Psychology Lab, Seoul National University (Advisor: Dr. Incheol Choi)",
+          "role": "Undergraduate Researcher",
+          "description": ""
+        },
+        {
+          "period": "Jan 2019 - Dec 2019",
+          "organization": "Computational Clinical Psychology Lab, Seoul National University (Advisor: Dr. Woo-Young Ahn)",
+          "role": "Undergraduate Researcher",
+          "description": ""
+        }
+      ]
+    },
+    "publications": {
+      "title": "Publications",
+      "published": "Published",
+      "submitted": "Under Review",
+      "publishedItems": [
+        {
+          "text": "[3] Jung, S., Ku, X., & Choi, I. (2025). Why Do Happy People Exercise More? The Mediating Roles of Motivation for Exercise. Journal of Happiness Studies, 26(4), 1-26.",
+          "doi": "https://doi.org/10.1007/s10902-025-00885-5"
+        },
+        {
+          "text": "[2] Kreibig, S. D., Jung, S., Samson, A. C., & Gross, J. J. (2025). Experiential, Expressive, and Physiological Effects of Extrinsic and Intrinsic Emotion Self-Regulation Instruction. Psychophysiology.",
+          "doi": "https://doi.org/10.1111/psyp.70153"
+        },
+        {
+          "text": "[1] Center for Happiness Studies, Seoul National University (2023). Korea Happiness Report 2023. 21st Century Books. (*Jung, S., *Ku, X., & Choi, I. Chapter: What Activities Do Happy People Engage In?, pp.145-153)",
+          "doi": null
+        }
+      ],
+      "submittedItems": [
+        "[2] *Jung, S., *Ku, X., Jun, Y., & Choi, I. Buying Time, To Do or Not To Do? The Effect of Time Saving and Task Avoidance Purchases on Happiness.",
+        "[1] Jung, Y., Jung, S., & Hahn, S. The Effect of Emotional Clarity on Happiness: Focusing on the Mediating Effect of Deliberate Rumination."
+      ]
+    },
+    "presentations": {
+      "title": "Conference Presentations",
+      "items": [
+        "[4] Jung, S., Jyung, M., & Choi, I. (Nov 2023). Valuing Relationship Buffers the Negative Effect of Living Alone on Happiness. Korean Society for Personality and Social Psychology (KSPPA), Poster Presentation.",
+        "[3] Jung, S., Ku, X., & Choi, I. (Nov 2023). Why Do Happy People Exercise More? Korean Society for Personality and Social Psychology (KSPPA), Oral Presentation.",
+        "[2] Jung, S., Ku, X., Jun, Y., & Choi, I. (Mar 2023). Buying Time, To Do or Not To Do? International Convention of Psychological Science (ICPS), Belgium, Poster Presentation.",
+        "[1] Jung, S. et al. (Aug 2020). Productivity Obsession Scale Development and Validation. Korean Psychological Association (KPA), Poster Presentation."
+      ]
+    },
+    "teaching": {
+      "title": "Teaching & Mentoring",
+      "items": [
+        { "period": "Nov-Dec 2025", "content": "SNU Undergraduate Honors Thesis Program Mentor" },
+        { "period": "Fall 2022, Fall 2021", "content": "SNU Social Psychology & Lab TA" },
+        { "period": "Spring 2022", "content": "SNU Psychology of Good Life TA" },
+        { "period": "Mar-Dec 2022", "content": "SNU Undergraduate Independent Research Program Mentor" }
+      ]
+    },
+    "awards": {
+      "title": "Awards & Funding",
+      "items": [
+        { "year": "2023", "content": "Future Psychologist Award - Korean Society for Personality and Social Psychology" },
+        { "year": "2022", "content": "SNU Graduate Academic Excellence Scholarship" },
+        { "year": "2019", "content": "SNU Undergraduate Independent Research Competition Excellence Award & ₩3M Research Grant" },
+        { "year": "2019", "content": "SNU Undergraduate Full Academic Excellence Scholarship" }
+      ]
+    }
+  },
+  "work": {
+    "title": "Work",
+    "intro": "I design psychology-based products in collaboration with designers, developers, and psychology experts. I also develop full-stack solutions for PoC/pilot services before official launch, and automate repetitive team tasks.",
+    "showMore": "Show More",
+    "collapse": "Collapse",
+    "productDev": "Product Development",
+    "experiences": [
+      {
+        "period": "Apr 2025 - Present",
+        "company": "Goodlife Lab",
+        "role": "Researcher (Insight Lab) · Product Owner · Full-stack Developer (AI Lab)",
+        "description": "【HR Solutions】\n• Delivered psychology-based HR solutions to 3 of Korea's top 5 enterprises (Employee well-being/burnout, Executive leadership)\n• Assessment development and administration (May 2025, Sep 2025)\n• Organizational diagnosis report writing\n• 13 assessment interpretation sessions (In-person/Online, 50min 1:1)\n• Day workshop facilitation\n• Assessment data preprocessing automation",
+        "products": [
+          { "date": "Jan 2026", "name": "Lifty App PO (iOS, Android)", "description": "Social motivation app" },
+          { "date": "Dec 2025", "name": "AI Coach Chatbot", "description": "For school assessments, leadership coaching, couples coaching" },
+          { "date": "Nov 2025", "name": "Couples Personality Test Web App", "description": "" },
+          { "date": "Sep 2025", "name": "Assessment Graph Auto-generator", "description": "" },
+          { "date": "Sep 2025", "name": "Coaching Dashboard", "description": "Client score visualization automation" },
+          { "date": "Sep 2025", "name": "Web Crawling Automation", "description": "" },
+          { "date": "May 2025", "name": "Excel-based Graph Auto-generator", "description": "" }
+        ]
+      },
+      {
+        "period": "Jun 2021 - Feb 2022",
+        "company": "LOMY",
+        "role": "CEO · Project Manager · Frontend Developer",
+        "description": "• Parent-child conflict resolution strategy app\n• Released psychology care app 'Dongnagui' for parents (Android)\n• Patent registered (Filed 2022.01.21, Registered 2025.01.31): Method and Server for Providing Behavior Habit according to Psychology Profile, Recording medium, Device\n• Pre-startup Package Top Excellence Award & ₩55M (KISED, 2021)\n• SNU Haedong Junior Startup Excellence Award & ₩5M (2021)",
+        "patentDoi": "https://doi.org/10.8080/1020220009020",
+        "products": []
+      },
+      {
+        "period": "May 2021 - Aug 2021",
+        "company": "CJ AI Research Center",
+        "role": "Psychology Researcher · Data Scientist (Intern)",
+        "description": "• MySQL, Python-based commerce data analysis\n• Depression care chatbot planning\n• Exercise coach device demo video model\n• Virtual human planning and facial data model",
+        "products": []
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "coaching": {
+      "title": "Coaching",
+      "period": "Jul 2025 - Present",
+      "trainingTitle": "Coaching Psychologist (Advanced) Training",
+      "supervisor": "Supervisor: Dr. Heekyung Lee (PBSOL, Korea's First Advanced Coaching Psychologist)",
+      "details": [
+        "Based on CBT · Humanistic · Positive Psychology",
+        "Life Coaching & Career Coaching for Adults",
+        "Clients: PhD students, NGO researchers, Police officers, etc."
+      ]
+    },
+    "portfolio": {
+      "title": "Development Portfolio",
+      "badge": "Coming Soon",
+      "description": "Preparing to upload my work portfolio."
+    },
+    "other": {
+      "title": "Others",
+      "comingSoon": "Coming soon"
+    }
+  },
+  "common": {
+    "present": "Present"
+  }
+}

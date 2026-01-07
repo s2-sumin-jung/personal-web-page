@@ -1,0 +1,208 @@
+{
+  "hero": {
+    "name": "정수민",
+    "nameEn": "Sumin Jung",
+    "title": "심리학 연구자 · 프로덕트 오너 · 코칭심리사",
+    "skills": "Skills",
+    "menu": "메뉴",
+    "nav": {
+      "latest": "최근 소식",
+      "research": "연구",
+      "work": "업무",
+      "projects": "프로젝트"
+    }
+  },
+  "latest": {
+    "title": "최근 소식",
+    "showMore": "더보기",
+    "collapse": "접기",
+    "updates": [
+      {
+        "date": "2026. 1. 7",
+        "content": "개인 웹사이트를 새로 단장해보았어요. 도메인도 연결해보았어요!"
+      },
+      {
+        "date": "2026. 1. 6",
+        "content": "프로덕트 오너로 참여하고 있는 소셜 동기부여 앱 Lifty 가 안드로이드와 IOS 마켓에 출시되었어요!"
+      },
+      {
+        "date": "2026. 1. 2",
+        "content": "현재 제공하고 있는 프로덕트들에 AI코치 기능을 붙여 PoC 테스트를 해보았는데 결과는 성공적! 직접 개발할 계획이에요."
+      }
+    ]
+  },
+  "research": {
+    "title": "연구",
+    "education": {
+      "title": "학력",
+      "items": [
+        {
+          "period": "2025.9 - 현재",
+          "institution": "서울대학교",
+          "degree": "사회심리학 박사과정",
+          "description": "지도교수: 최인철 박사 · 연구 주제: 행복 · 웰빙 · 운동 · 동기 · 정서조절"
+        },
+        {
+          "period": "2021.9 - 2023.8",
+          "institution": "서울대학교",
+          "degree": "사회심리학 석사"
+        },
+        {
+          "period": "2016.3 - 2020.8",
+          "institution": "서울대학교",
+          "degree": "심리학 학사 (최우등 졸업)"
+        }
+      ]
+    },
+    "experience": {
+      "title": "연구 경력",
+      "items": [
+        {
+          "period": "2025.9 - 현재",
+          "organization": "서울대학교 행복연구센터 (지도교수: 최인철 박사)",
+          "role": "대학원 연구원",
+          "description": ""
+        },
+        {
+          "period": "2024.3 - 2025.2",
+          "organization": "스탠포드 대학교 심리생리학 연구실 (지도교수: James Gross 박사)",
+          "role": "연구원",
+          "description": "멘토: Sylvia Kreibig 박사, 연구 논문 2편 협업, 메타분석 문헌 리뷰 및 코딩"
+        },
+        {
+          "period": "2021.9 - 2023.8",
+          "organization": "서울대학교 행복연구센터 (지도교수: 최인철 박사)",
+          "role": "대학원생 연구원",
+          "description": "멘토: 정민화 박사, 구자일 박사, 연구 프로젝트 3편 협업, 종단 데이터 통계 분석"
+        },
+        {
+          "period": "2019.1 - 2020.12",
+          "organization": "서울대학교 사회심리학연구실 (지도교수: 최인철 박사)",
+          "role": "학부생 연구원",
+          "description": ""
+        },
+        {
+          "period": "2019.1 - 2019.12",
+          "organization": "서울대학교 계산임상심리연구실 (지도교수: 안우영 박사)",
+          "role": "학부생 연구원",
+          "description": ""
+        }
+      ]
+    },
+    "publications": {
+      "title": "논문",
+      "published": "출판됨",
+      "submitted": "제출됨",
+      "publishedItems": [
+        {
+          "text": "[3] Jung, S., Ku, X., & Choi, I. (2025). Why Do Happy People Exercise More? The Mediating Roles of Motivation for Exercise. Journal of Happiness Studies, 26(4), 1-26.",
+          "doi": "https://doi.org/10.1007/s10902-025-00885-5"
+        },
+        {
+          "text": "[2] Kreibig, S. D., Jung, S., Samson, A. C., & Gross, J. J. (2025). Experiential, Expressive, and Physiological Effects of Extrinsic and Intrinsic Emotion Self-Regulation Instruction. Psychophysiology.",
+          "doi": "https://doi.org/10.1111/psyp.70153"
+        },
+        {
+          "text": "[1] 서울대학교 행복연구센터 (2023). 대한민국 행복지도 2023: 서울대 행복연구센터의 행복 리포트. 21세기북스. (*Jung, S., *Ku, X., & Choi, I. 챕터 집필: 행복한 사람들은 어떤 활동에 참여하는가?, pp.145-153)",
+          "doi": null
+        }
+      ],
+      "submittedItems": [
+        "[2] *Jung, S., *Ku, X., Jun, Y., & Choi, I. Buying Time, To Do or Not To Do? The Effect of Time Saving and Task Avoidance Purchases on Happiness.",
+        "[1] Jung, Y., Jung, S., & Hahn, S. The Effect of Emotional Clarity on Happiness: Focusing on the Mediating Effect of Deliberate Rumination."
+      ]
+    },
+    "presentations": {
+      "title": "학회 발표",
+      "items": [
+        "[4] Jung, S., Jyung, M., & Choi, I. (2023.11). Valuing Relationship Buffers the Negative Effect of Living Alone on Happiness. Korean Society for Personality and Social Psychology (KSPPA), Poster Presentation.",
+        "[3] Jung, S., Ku, X., & Choi, I. (2023.11). Why Do Happy People Exercise More? Korean Society for Personality and Social Psychology (KSPPA), Oral Presentation.",
+        "[2] Jung, S., Ku, X., Jun, Y., & Choi, I. (2023.3). Buying Time, To Do or Not To Do? International Convention of Psychological Science (ICPS), Belgium, Poster Presentation.",
+        "[1] Jung, S. et al. (2020.8). Productivity Obsession Scale Development and Validation. Korean Psychological Association (KPA), Poster Presentation."
+      ]
+    },
+    "teaching": {
+      "title": "강의 및 멘토링",
+      "items": [
+        { "period": "2025.11-12", "content": "서울대 학부생 우수논문 프로그램 멘토" },
+        { "period": "2022 가을, 2021 가을", "content": "서울대 <사회심리학 및 실험> 수업 진행 조교" },
+        { "period": "2022 봄", "content": "서울대 <굿라이프 심리학> 수업 진행 조교" },
+        { "period": "2022.3-12", "content": "서울대 학부생 독립연구 프로그램 멘토" }
+      ]
+    },
+    "awards": {
+      "title": "수상 및 펀딩",
+      "items": [
+        { "year": "2023", "content": "미래 심리학자상 - 한국사회및성격심리학회" },
+        { "year": "2022", "content": "서울대 대학원 성적우수 장학금" },
+        { "year": "2019", "content": "서울대 학부생 독립연구 공모전 우수상 & 연구비 300만원" },
+        { "year": "2019", "content": "서울대 학부 전액 성적우수 장학금" }
+      ]
+    }
+  },
+  "work": {
+    "title": "업무",
+    "intro": "디자이너, 개발자, 심리학 전문가와 협업하여 심리학 기반 제품을 기획합니다. 정식 출시 전 PoC나 파일럿 서비스가 필요할 때, 그리고 팀원들의 반복 업무를 자동화할 때 직접 풀스택으로 개발합니다.",
+    "showMore": "더보기",
+    "collapse": "접기",
+    "productDev": "프로덕트 개발",
+    "experiences": [
+      {
+        "period": "2025.4 - 현재",
+        "company": "Goodlife Lab",
+        "role": "Researcher (Insight Lab) · Product Owner · Full-stack Developer (AI Lab)",
+        "description": "【HR 솔루션】\n• 국내 5대 대기업 중 3곳에 심리학 기반 HR 솔루션 납품 (임직원 웰빙/번아웃, 임원 리더십)\n• 검사 개발 및 진행 (2025.5, 2025.9)\n• 조직 진단 보고서 작성\n• 검사 해석 세션 13회 (대면/비대면, 50분 1:1)\n• 일일 워크숍 진행\n• 검사 데이터 전처리 자동화",
+        "products": [
+          { "date": "2026.1", "name": "Lifty 앱 PO (iOS, Android)", "description": "소셜 동기부여 앱" },
+          { "date": "2025.12", "name": "AI 코치 챗봇", "description": "학교검사 교사용, 리더십 코칭, 커플 코칭" },
+          { "date": "2025.11", "name": "커플 성격검사 웹앱", "description": "" },
+          { "date": "2025.9", "name": "검사 해석용 그래프 자동생성기", "description": "" },
+          { "date": "2025.9", "name": "코칭 대시보드", "description": "내담자 점수 시각화 자동화" },
+          { "date": "2025.9", "name": "웹 크롤링 자동화", "description": "" },
+          { "date": "2025.5", "name": "엑셀 기반 그래프 자동생성기", "description": "" }
+        ]
+      },
+      {
+        "period": "2021.6 - 2022.2",
+        "company": "LOMY",
+        "role": "CEO · Project Manager · Frontend Developer",
+        "description": "• 부모-자녀 갈등 상황별 맞춤 대처 전략 앱\n• 부모를 위한 심리케어 앱 <당나귀> 출시 (Android)\n• 특허 등록 (출원 2022.01.21, 등록 2025.01.31): 심리 프로파일에 따른 행동 습관 제공 방법, 서버, 저장 매체 및 디바이스\n• 예비창업패키지 최우수상 & 5,500만원 (창업진흥원, 2021)\n• 서울대 해동 주니어 스타트업 우수상 & 500만원 (2021)",
+        "patentDoi": "https://doi.org/10.8080/1020220009020",
+        "products": []
+      },
+      {
+        "period": "2021.5 - 2021.8",
+        "company": "CJ AI 연구센터",
+        "role": "Psychology Researcher · Data Scientist (Intern)",
+        "description": "• MySQL, Python 기반 커머스 데이터 분석\n• 우울증 케어 챗봇 기획\n• 운동 코치 디바이스 데모 영상 모델\n• 버츄얼 휴먼 기획 및 얼굴 데이터 모델",
+        "products": []
+      }
+    ]
+  },
+  "projects": {
+    "title": "프로젝트",
+    "coaching": {
+      "title": "코칭",
+      "period": "2025.7 - 현재",
+      "trainingTitle": "코칭심리사 1급 수련",
+      "supervisor": "수퍼바이저: 이희경 (피비솔, 국내 최초 코칭심리사 1급)",
+      "details": [
+        "인지행동주의 · 인본주의 · 긍정심리학 기반",
+        "성인 대상 라이프코칭 & 커리어코칭",
+        "내담자: 박사과정생, NGO 연구자, 경찰 등"
+      ]
+    },
+    "portfolio": {
+      "title": "개발 포트폴리오",
+      "badge": "준비 중",
+      "description": "지금까지의 작업물 업로드 준비중에 있습니다."
+    },
+    "other": {
+      "title": "기타",
+      "comingSoon": "Coming soon"
+    }
+  },
+  "common": {
+    "present": "현재"
+  }
+}

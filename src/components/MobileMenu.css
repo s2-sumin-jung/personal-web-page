@@ -3,8 +3,8 @@
   display: none;
   position: fixed;
   top: 1rem;
-  right: 1rem;
-  z-index: 1000;
+  left: 1rem;
+  z-index: 1001;
   width: 48px;
   height: 48px;
   background: var(--bg-primary);
@@ -84,11 +84,13 @@
   background: rgba(0, 0, 0, 0.5);
   z-index: 998;
   opacity: 0;
+  pointer-events: none;
   transition: opacity var(--transition-base);
 }
 
 .mobile-menu-overlay.open {
   opacity: 1;
+  pointer-events: auto;
 }
 
 /* Mobile Menu */
@@ -96,7 +98,7 @@
   display: none;
   position: fixed;
   top: 0;
-  right: -100%;
+  left: -100%;
   width: 80%;
   max-width: 320px;
   height: 100%;
@@ -104,12 +106,12 @@
   z-index: 999;
   padding: var(--spacing-xl);
   box-shadow: var(--shadow-xl);
-  transition: right var(--transition-slow);
+  transition: left var(--transition-slow);
   overflow-y: auto;
 }
 
 .mobile-menu.open {
-  right: 0;
+  left: 0;
 }
 
 .mobile-menu-header {

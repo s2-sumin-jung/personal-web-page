@@ -1,7 +1,7 @@
 .latest-section {
   background: var(--bg-primary);
-  min-height: auto;
-  padding-bottom: 0;
+  min-height: auto !important;
+  padding-bottom: var(--spacing-lg);
 }
 
 .show-more-btn {
