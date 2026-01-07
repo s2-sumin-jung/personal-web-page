@@ -3,12 +3,13 @@
     "name": "Sumin Jung",
     "nameEn": "정수민",
     "title": "Psychology Researcher · Product Owner · Coach Trainee",
+    "description": "Translating psychology into technology to make happiness accessible for all.",
     "skills": "Skills",
     "menu": "Menu",
     "nav": {
-      "latest": "Latest",
-      "research": "Research",
-      "work": "Work",
+      "latest": "Latest News",
+      "research": "Research Experience",
+      "work": "Work Experience",
       "projects": "Projects"
     }
   },
@@ -32,7 +33,7 @@
     ]
   },
   "research": {
-    "title": "Research",
+    "title": "Research Experience",
     "education": {
       "title": "Education",
       "items": [
@@ -45,7 +46,8 @@
         {
           "period": "Sep 2021 - Aug 2023",
           "institution": "Seoul National University",
-          "degree": "M.A. in Social Psychology"
+          "degree": "M.A. in Social Psychology",
+          "description": "Advisor: Dr. Incheol Choi · First-author thesis published in Journal of Happiness Studies (2025)"
         },
         {
           "period": "Mar 2016 - Aug 2020",
@@ -60,31 +62,31 @@
         {
           "period": "Sep 2025 - Present",
           "organization": "Center for Happiness Studies, Seoul National University (Advisor: Dr. Incheol Choi)",
-          "role": "Graduate Researcher",
+          "role": "Graduate Research Assistant",
           "description": ""
         },
         {
           "period": "Mar 2024 - Feb 2025",
           "organization": "Psychophysiology Laboratory, Stanford University (Advisor: Dr. James Gross)",
-          "role": "Researcher",
+          "role": "Research Assistant",
           "description": "Mentor: Dr. Sylvia Kreibig, Co-authored 2 research papers, Meta-analysis literature review and coding"
         },
         {
           "period": "Sep 2021 - Aug 2023",
           "organization": "Center for Happiness Studies, Seoul National University (Advisor: Dr. Incheol Choi)",
-          "role": "Graduate Researcher",
-          "description": "Mentors: Dr. Minhwa Jung, Dr. Jail Koo, Co-authored 3 research projects, Longitudinal data statistical analysis"
+          "role": "Graduate Research Assistant",
+          "description": "Mentors: Dr. Minhwa Jung, Dr. Xyle Ku, Dr. Emily Hong, Co-authored 3 research projects, Longitudinal data statistical analysis"
         },
         {
           "period": "Jan 2019 - Dec 2020",
           "organization": "Social Psychology Lab, Seoul National University (Advisor: Dr. Incheol Choi)",
-          "role": "Undergraduate Researcher",
+          "role": "Undergraduate Research Assistant",
           "description": ""
         },
         {
           "period": "Jan 2019 - Dec 2019",
           "organization": "Computational Clinical Psychology Lab, Seoul National University (Advisor: Dr. Woo-Young Ahn)",
-          "role": "Undergraduate Researcher",
+          "role": "Undergraduate Research Assistant",
           "description": ""
         }
       ]
@@ -141,7 +143,7 @@
     }
   },
   "work": {
-    "title": "Work",
+    "title": "Work Experience",
     "intro": "I design psychology-based products in collaboration with designers, developers, and psychology experts. I also develop full-stack solutions for PoC/pilot services before official launch, and automate repetitive team tasks.",
     "showMore": "Show More",
     "collapse": "Collapse",

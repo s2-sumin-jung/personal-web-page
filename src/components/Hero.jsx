@@ -34,7 +34,7 @@ function Hero() {
     }
   }
 
-  const skills = ['R', 'Python', 'MySQL', 'JavaScript', 'HTML', 'CSS']
+  const skills = ['R', 'Python', 'NLP', 'React', 'React Native', 'Node.js', 'MySQL']
 
   return (
     <div className="hero">
@@ -72,6 +72,9 @@ function Hero() {
           <h2 className="name-en">{t('hero.nameEn')}</h2>
           <p className="title">
             {t('hero.title')}
+          </p>
+          <p className="description">
+            {t('hero.description')}
           </p>
         </div>
 
