@@ -420,6 +420,7 @@ dist/
 - [x] **타임라인 UI**: react-vertical-timeline-component 적용
 - [x] **모바일 메뉴**: 햄버거 좌측 배치, 좌측 슬라이드, i18n 지원
 - [x] **모바일 버그 수정**: 오버레이 클릭 이슈 (pointer-events)
+- [x] **Google Analytics**: GA4 연동 (G-0147V3EYQJ)
 
 ### 콘텐츠 업데이트
 - [ ] 프로필 사진 최종본 교체
@@ -429,8 +430,7 @@ dist/
 ### 기능 개선
 - [ ] 다크 모드 지원
 - [ ] 애니메이션 개선
-- [ ] Google Analytics 연동
-- [ ] GitHub 저장소 연결 (자동 배포)
+- [ ] GitHub Actions 자동 배포
 
 ### 접근성
 - [ ] ARIA 라벨 추가
@@ -526,6 +526,25 @@ npm run build -- --force
 
 ### 카카오톡 OG 이미지 캐시 초기화
 - https://developers.kakao.com/tool/clear/og 에서 URL 입력 후 초기화
+
+---
+
+## Google Analytics (GA4)
+
+### 측정 ID
+- **G-0147V3EYQJ**
+
+### 대시보드
+- https://analytics.google.com
+
+### 주요 지표
+- 실시간 사용자
+- 페이지뷰
+- 사용자 위치/기기
+- 트래픽 소스
+
+### 코드 위치
+- `index.html` 의 `<head>` 태그 내 gtag.js 스크립트
 
 ---
 
