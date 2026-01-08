@@ -10,7 +10,8 @@
       "latest": "Latest News",
       "research": "Research Experience",
       "work": "Work Experience",
-      "projects": "Projects"
+      "projects": "Projects",
+      "freelance": "Freelance"
     }
   },
   "latest": {
@@ -198,10 +199,31 @@
       "title": "Development Portfolio",
       "badge": "Coming Soon",
       "description": "Preparing to upload my work portfolio."
-    },
-    "other": {
-      "title": "Others",
-      "comingSoon": "Coming soon"
+    }
+  },
+  "freelance": {
+    "title": "Freelance",
+    "webDev": {
+      "title": "Web Development",
+      "intro": "I build portfolio websites, landing pages, and web apps. Get a modern, responsive website built with React at a reasonable price.",
+      "services": [
+        {
+          "icon": "🌐",
+          "title": "Portfolio Website",
+          "description": "Elegant portfolio sites for personal branding"
+        },
+        {
+          "icon": "🚀",
+          "title": "Landing Page",
+          "description": "Single-page landing for products and services"
+        },
+        {
+          "icon": "💻",
+          "title": "Web Application",
+          "description": "Interactive React-based web app development"
+        }
+      ],
+      "cta": "View Quotation"
     }
   },
   "common": {

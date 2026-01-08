@@ -8,7 +8,7 @@ function Hero() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['latest', 'research', 'work', 'projects']
+      const sections = ['latest', 'research', 'work', 'projects', 'freelance']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -146,6 +146,12 @@ function Hero() {
             onClick={() => scrollToSection('projects')}
           >
             {t('hero.nav.projects')}
+          </button>
+          <button
+            className={`nav-item ${activeSection === 'freelance' ? 'active' : ''}`}
+            onClick={() => scrollToSection('freelance')}
+          >
+            {t('hero.nav.freelance')}
           </button>
         </nav>
       </div>

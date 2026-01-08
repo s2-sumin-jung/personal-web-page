@@ -4,6 +4,7 @@ import Latest from "./sections/Latest";
 import Research from "./sections/Research";
 import Work from "./sections/Work";
 import Projects from "./sections/Projects";
+import Freelance from "./sections/Freelance";
 import "./App.css";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Research />
         <Work />
         <Projects />
+        <Freelance />
       </main>
     </div>
   );

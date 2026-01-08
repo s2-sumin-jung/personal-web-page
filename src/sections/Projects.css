@@ -216,9 +216,90 @@
   color: var(--text-secondary);
 }
 
+/* Quotation Card */
+.quotation-card {
+  display: flex;
+  align-items: center;
+  gap: var(--spacing-lg);
+  padding: 24px 32px;
+  background: linear-gradient(135deg, var(--bg-primary) 0%, var(--bg-secondary) 100%);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--shadow-primary);
+  transition: all var(--transition-base);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.quotation-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--primary);
+  background: linear-gradient(135deg, var(--bg-primary) 0%, rgba(88, 100, 255, 0.05) 100%);
+}
+
+.quotation-icon {
+  flex-shrink: 0;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+  border-radius: var(--radius-md);
+  color: white;
+}
+
+.quotation-content {
+  flex: 1;
+}
+
+.quotation-title {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 0.25rem;
+}
+
+.quotation-description {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.5;
+}
+
+.quotation-button {
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 10px 20px;
+  background: var(--primary);
+  color: white;
+  font-weight: 600;
+  font-size: 0.875rem;
+  border-radius: var(--radius-sm);
+  transition: all var(--transition-base);
+}
+
+.quotation-card:hover .quotation-button {
+  background: var(--primary-light);
+  transform: translateX(4px);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
+  }
+
+  .quotation-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 24px;
+  }
+
+  .quotation-button {
+    width: 100%;
+    justify-content: center;
   }
 }
