@@ -1,0 +1,7 @@
+# robots.txt for sumin-jung.com
+
+User-agent: *
+Allow: /
+
+# Sitemaps
+Sitemap: https://sumin-jung.com/sitemap.xml
