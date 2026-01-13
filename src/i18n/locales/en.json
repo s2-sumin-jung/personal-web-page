@@ -138,7 +138,7 @@
       "items": [
         { "year": "2023", "content": "Future Psychologist Award - Korean Society for Personality and Social Psychology" },
         { "year": "2022", "content": "SNU Graduate Academic Excellence Scholarship" },
-        { "year": "2019", "content": "SNU Undergraduate Independent Research Competition Excellence Award & ₩3M Research Grant" },
+        { "year": "2019", "content": "SNU Undergraduate Independent Research Competition Excellence Award & $3k Research Grant" },
         { "year": "2019", "content": "SNU Undergraduate Full Academic Excellence Scholarship" }
       ]
     }
@@ -169,7 +169,7 @@
         "period": "Jun 2021 - Feb 2022",
         "company": "LOMY",
         "role": "CEO · Project Manager · Frontend Developer",
-        "description": "• Parent-child conflict resolution strategy app\n• Released psychology care app 'Dongnagui' for parents (Android)\n• Patent registered (Filed 2022.01.21, Registered 2025.01.31): Method and Server for Providing Behavior Habit according to Psychology Profile, Recording medium, Device\n• Pre-startup Package Top Excellence Award & ₩55M (KISED, 2021)\n• SNU Haedong Junior Startup Excellence Award & ₩5M (2021)",
+        "description": "• Parent-child conflict resolution strategy app\n• Released psychology care app 'Dongnagui' for parents (Android)\n• Patent registered (Filed 2022.01.21, Registered 2025.01.31): Method and Server for Providing Behavior Habit according to Psychology Profile, Recording medium, Device\n• Pre-startup Package Top Excellence Award & $50k (KISED, 2021)\n• SNU Haedong Junior Startup Excellence Award & $5k (2021)",
         "patentDoi": "https://doi.org/10.8080/1020220009020",
         "products": []
       },
