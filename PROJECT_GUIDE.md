@@ -453,6 +453,9 @@ dist/
 - [x] **학력 정보 강화**: 석사 학위에 지도교수 및 논문 정보 추가
 - [x] **외주 문의 섹션**: 별도 탭으로 분리, 웹개발/코칭 견적서 연결
 - [x] **코칭 견적서**: 한국어 버전에만 표시 (조건부 렌더링)
+- [x] **SEO 강화**: keywords, canonical URL, JSON-LD 구조화된 데이터 추가
+- [x] **Google Search Console**: 소유권 확인, Sitemap 제출, 색인 요청 완료
+- [x] **robots.txt & sitemap.xml**: 검색 엔진 크롤러 최적화
 
 ### 콘텐츠 업데이트
 - [ ] 프로필 사진 최종본 교체
@@ -578,6 +581,45 @@ npm run build -- --force
 
 ### 코드 위치
 - `index.html` 의 `<head>` 태그 내 gtag.js 스크립트
+
+---
+
+## SEO 및 검색 엔진 최적화
+
+### 메타 태그 (index.html)
+```html
+<!-- Primary Meta Tags -->
+<title>정수민 | Sumin Jung - 심리학 연구자 · 프로덕트 오너</title>
+<meta name="description" content="심리학 연구자, 프로덕트 오너, 코치 수련생. 서울대학교 심리학 박사과정. 행복, 웰빙, 운동심리학 연구..." />
+<meta name="keywords" content="정수민, Sumin Jung, 심리학 연구자, 서울대학교, 행복 연구, 웰빙, 프로덕트 오너, 코치..." />
+<meta name="google-site-verification" content="nZNSBDVyYL6cv_Htnlus8ZcrNYHBzJC1OjBcGr90oFA" />
+<link rel="canonical" href="https://sumin-jung.com/" />
+```
+
+### 구조화된 데이터 (JSON-LD)
+- **Schema.org Person**: 이름, 직함, 소속, 전문분야, 소셜 링크
+- 구글 검색 결과에 풍부한 정보 표시
+- 코드 위치: `index.html` 의 `<head>` 태그 내
+
+### 검색 엔진 크롤러 설정
+- **robots.txt**: 모든 크롤러 허용 (`public/robots.txt`)
+- **sitemap.xml**: 사이트 구조 전달 (`public/sitemap.xml`)
+
+### Google Search Console
+- **등록 완료**: https://search.google.com/search-console
+- **Sitemap 제출**: `https://sumin-jung.com/sitemap.xml`
+- **색인 생성 요청**: 완료 (2026-01-11)
+
+### 검색 노출 예상 시기
+- **색인 생성**: 1-3일 후 Search Console 데이터 표시
+- **검색 노출**: 1-2주 후 "정수민", "Sumin Jung" 검색 시 노출 시작
+- **순위 안정화**: 2-4주 후
+
+### 검색 노출 향상 팁
+1. **백링크**: LinkedIn, Brunch 프로필에 웹사이트 URL 추가
+2. **콘텐츠 업데이트**: 정기적으로 최근 소식, 논문 업데이트
+3. **소셜 공유**: 카카오톡, 이메일 서명에 URL 포함
+4. **내부 링크**: 각 섹션별 앵커 링크 활용
 
 ---
 
